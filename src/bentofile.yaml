@@ -1,0 +1,22 @@
+service: "service.py:svc"
+include:
+  - "service.py"
+  - "runners/__init__.py"
+  - "runners/dialogue_summarize.py"
+  - "runners/podcast_download.py"
+  - "runners/transcribe_diarize.py"
+  - "runners/video_download.py"
+  - "configuration.yaml"
+  - "diarization/config.yaml"
+  - "diarization/pytorch_model.bin"
+python:
+  requirements_txt: "../requirements.txt"
+docker: 
+  distro: debian
+  dockerfile_template: "../Dockerfile.template"
+  system_packages:
+    - git
+    - ffmpeg
+  cuda_version: "11.6.2"
+  env:
+      BENTOML_CONFIG: "src/configuration.yaml" 
