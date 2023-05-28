@@ -20,3 +20,34 @@ This was to be achieved through the use of automatic speech recognition technolo
 PodNotes was built using Streamlit and deployed on a GPU-powered AWS EC2 instance, integrating a transcription (Whisper), summarization (BART), and diarization (Pyannote.Audio) API through BentoML. This architecture facilitates GPU-based processing, accessibility, scalability, platform independence, and easier updates. The storage strategy used was an AWS S3 Bucket, providing better scalability and reliability. AWS Cognito was introduced for secure user authentication, allowing users to easily manage their podcast transcriptions and summaries. This strategy resulted in an efficient, secure, and user-friendly ASR system that aligned closely with project's objectives from the research phase.
 
 ![Blank board](https://github.com/SLong97/PodNotes/assets/91565384/f358fea4-dda3-480b-88b5-d74fa713e87b)
+
+## Video Demonstration
+
+&nbsp;
+&nbsp;
+
+### Web App Logged Out & Logged In
+
+https://github.com/SLong97/PodNotes/assets/91565384/77c81f91-c9c1-494d-b498-28dda4638944
+
+&nbsp;
+&nbsp;
+
+### YouTube Transcription, Exportation, Saving & Editing Functionality
+
+https://github.com/SLong97/PodNotes/assets/91565384/3d13ec38-69e0-4efc-9bb8-bcfa6c0eac88
+
+&nbsp;
+&nbsp;
+
+### Podcast Transcription with ListenNotes API
+
+https://github.com/SLong97/PodNotes/assets/91565384/f3428b8f-acd2-4340-9dd6-ca636710362d
+
+&nbsp;
+&nbsp;
+
+### User Uploaded Audio Transcription
+
+https://github.com/SLong97/PodNotes/assets/91565384/8b5bf11d-877e-4798-864e-f52513cf4989
+
